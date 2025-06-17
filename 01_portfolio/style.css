@@ -1,0 +1,718 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-transform: capitalize;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  border-bottom: solid 2px;
+}
+#logo {
+  font-size: 20px;
+  font-weight: 900;
+}
+#menu-btn {
+  display: none;
+}
+
+#menu {
+  display: flex;
+  gap: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-transform: capitalize;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  border-bottom: solid;
+}
+#logo {
+  font-size: 20px;
+  font-weight: 900;
+}
+#menu-btn {
+  display: none;
+}
+
+#menu {
+  display: flex;
+  gap: 20px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black; /* or white if your header is dark */
+}
+
+#menu a h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+#menu a:hover h4 {
+  color: #00ffff;
+}
+
+/* main div  start */
+
+#main {
+  padding: 0 100px;
+}
+#box {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#info h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+#info h1 span {
+  color: #00ffff;
+}
+#info h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#info button {
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #1a047e;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+#info ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#info li {
+  display: flex;
+  align-items: center;
+  background-color: #1a047e;
+  height: 50px;
+  padding: 5px 11px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.fab {
+  color: #00ffff;
+}
+.fab:hover {
+  color: #fc8c05;
+}
+
+/* image mypic */
+#mypic img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid 2px;
+}
+
+#aboutUs {
+}
+
+#infoMe {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  /* background-color: red; */
+}
+
+#bio {
+  font-size: 25px;
+}
+#bio h1 {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 10px;
+}
+#infoMe h3 {
+  margin-bottom: 5px;
+  color: #1d1d1da0;
+  margin-bottom: 10px;
+}
+#infoMe p {
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+#infoMe img {
+  height: 500px;
+  border-radius: 20px;
+}
+
+/* skills start  */
+
+#skills {
+}
+#skills h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #1d1d1da0;
+  margin-bottom: 10px;
+}
+
+#card-img img {
+  height: 150px;
+  width: 350px;
+  background-color: gray;
+  padding: 10px 20px;
+  /* background-color: yellow; */
+}
+
+/* education div start  */
+
+#education {
+}
+
+#education h3 {
+  font-size: 25px;
+  color: #1a047e;
+  margin-bottom: 10px;
+}
+
+#education h3 span {
+  font-weight: 400;
+  color: #333;
+}
+
+#education p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: monospace;
+}
+
+#education ul {
+  padding-left: 20px;
+}
+
+#education li {
+  font-size: 16px;
+  line-height: 1.8;
+  list-style-type: square;
+  color: #333;
+}
+
+/* contact start  */
+form {
+  display: inline-grid;
+  gap: 10px;
+  width: 100%;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+form textarea {
+  padding: 0 10px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: #4925ed;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 10px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #3219a8;
+  color: #ffeb3b;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* contact end  */
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 0 20px;
+  }
+  #main {
+    padding: 0 20px;
+  }
+
+  /* menu start  */
+  #menu {
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    flex-direction: column;
+    display: none;
+
+    /* Mobile-only background and border */
+    background-color: #1a047e;
+    padding: 10px 15px;
+    border-radius: 10px;
+    z-index: 999;
+  }
+
+  #menu.show {
+    display: flex;
+  }
+
+  #menu a {
+    color: white;
+  }
+
+  #menu a h4 {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 0;
+  }
+
+  #menu-btn {
+    display: block;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: solid 2px #1a047e;
+    border-radius: 5px;
+    background: transparent;
+    color: #1a047e;
+    font-weight: bold;
+  }
+
+  /* menu end  */
+  #box {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 86px;
+  }
+  #mypic img {
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+  }
+
+  /* aboutUs start */
+
+  #bio {
+    font-size: 15px;
+  }
+  #infoMe {
+    flex-direction: column;
+    align-items: center;
+  }
+  #infoMe img {
+    height: auto;
+    width: 100%;
+  }
+  /* aboutUs end */
+
+  /* skills start */
+
+  #skills h3 {
+    font-size: 20px;
+  }
+  #card-img img {
+    height: 100px;
+    width: auto;
+  }
+
+  #myFormDiv {
+    flex-direction: column;
+  }
+  #form-img img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+footer p {
+  margin: 0;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black; /* or white if your header is dark */
+}
+
+#menu a h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+#menu a:hover h4 {
+  color: #00ffff;
+}
+
+/* main div  start */
+
+#main {
+  padding: 0 100px;
+}
+#box {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#info h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+#info h1 span {
+  color: #00ffff;
+}
+#info h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#info button {
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #1a047e;
+  color: #fff;
+  border: none;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+#info ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#info li {
+  display: flex;
+  align-items: center;
+  background-color: #1a047e;
+  height: 50px;
+  padding: 5px 11px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.fab {
+  color: #00ffff;
+}
+.fab:hover {
+  color: #fc8c05;
+}
+
+/* image mypic */
+#mypic img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  border: solid 2px;
+}
+
+#aboutUs {
+}
+
+#infoMe {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  /* background-color: red; */
+}
+
+#bio {
+  font-size: 25px;
+}
+#bio h1 {
+  font-size: 35px;
+  color: black;
+  margin-bottom: 10px;
+}
+#infoMe h3 {
+  margin-bottom: 5px;
+  color: #1d1d1da0;
+  margin-bottom: 10px;
+}
+#infoMe p {
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+#infoMe img {
+  height: 500px;
+  border-radius: 20px;
+}
+
+/* skills start  */
+
+#skills {
+}
+#skills h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #1d1d1da0;
+  margin-bottom: 10px;
+}
+
+#card-img img {
+  height: 150px;
+  width: 350px;
+  background-color: gray;
+  padding: 10px 20px;
+  /* background-color: yellow; */
+}
+
+/* education div start  */
+
+#education {
+}
+
+#education h3 {
+  font-size: 25px;
+  color: #1a047e;
+  margin-bottom: 10px;
+}
+
+#education h3 span {
+  font-weight: 400;
+  color: #333;
+}
+
+#education p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-family: monospace;
+}
+
+#education ul {
+  padding-left: 20px;
+}
+
+#education li {
+  font-size: 16px;
+  line-height: 1.8;
+  list-style-type: square;
+  color: #333;
+}
+
+/* contact start  */
+form {
+  display: inline-grid;
+  gap: 10px;
+  width: 100%;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+form textarea {
+  padding: 0 10px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: #4925ed;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 10px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #3219a8;
+  color: #ffeb3b;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* contact end  */
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 0 20px;
+  }
+  #main {
+    padding: 0 20px;
+  }
+
+  /* menu start  */
+  #menu {
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    flex-direction: column;
+    display: none;
+
+    /* Mobile-only background and border */
+    background-color: #1a047e;
+    padding: 10px 15px;
+    border-radius: 10px;
+    z-index: 999;
+  }
+
+  #menu.show {
+    display: flex;
+  }
+
+  #menu a {
+    color: white;
+  }
+
+  #menu a h4 {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 0;
+  }
+
+  #menu-btn {
+    display: block;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: solid 2px #1a047e;
+    border-radius: 5px;
+    background: transparent;
+    color: #1a047e;
+    font-weight: bold;
+  }
+
+  /* menu end  */
+  #box {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 86px;
+  }
+  #mypic img {
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+  }
+
+  /* aboutUs start */
+
+  #bio {
+    font-size: 15px;
+  }
+  #infoMe {
+    flex-direction: column;
+    align-items: center;
+  }
+  #infoMe img {
+    height: auto;
+    width: 100%;
+  }
+  /* aboutUs end */
+
+  /* skills start */
+
+  #skills h3 {
+    font-size: 20px;
+  }
+  #card-img img {
+    height: 100px;
+    width: auto;
+  }
+
+  #myFormDiv {
+    flex-direction: column;
+  }
+  #form-img img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+footer p {
+  margin: 0;
+}

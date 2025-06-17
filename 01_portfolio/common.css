@@ -1,0 +1,25 @@
+.bg-col {
+  background-color: #f9f9f9;
+}
+
+.comVh {
+  min-height: auto;
+  width: 100%;
+  border: solid 2px;
+  margin-bottom: 81px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.comH1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 720px) {
+  .comH1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}

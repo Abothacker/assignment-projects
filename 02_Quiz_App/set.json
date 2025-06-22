@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which color is the sky?",
+    "options": ["Green", "Blue", "Red", "Yellow"],
+    "answer": "Blue"
+  },
+  {
+    "question": "How many legs does a dog have?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "What do we drink?",
+    "options": ["Water", "Stone", "Sand", "Paper"],
+    "answer": "Water"
+  },
+  {
+    "question": "Which fruit is red?",
+    "options": ["Banana", "Apple", "Orange", "Grapes"],
+    "answer": "Apple"
+  },
+  {
+    "question": "What is 2 + 2?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "4"
+  },
+  {
+    "question": "Which animal says 'meow'?",
+    "options": ["Dog", "Cow", "Cat", "Lion"],
+    "answer": "Cat"
+  },
+  {
+    "question": "What do we use to write?",
+    "options": ["Spoon", "Pencil", "Bottle", "Ball"],
+    "answer": "Pencil"
+  },
+  {
+    "question": "What do we wear on our feet?",
+    "options": ["Gloves", "Shoes", "Hat", "Scarf"],
+    "answer": "Shoes"
+  },
+  {
+    "question": "What do bees make?",
+    "options": ["Milk", "Honey", "Juice", "Tea"],
+    "answer": "Honey"
+  },
+  {
+    "question": "What is the opposite of hot?",
+    "options": ["Warm", "Cold", "Boil", "Dry"],
+    "answer": "Cold"
+  }
+]

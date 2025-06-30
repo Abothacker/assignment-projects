@@ -21,10 +21,13 @@ function cardDiv(x) {
   div.id = "card";
 
   div.innerHTML = `
-                <img src="${x.strMealThumb}" alt="">
+           
+    <a href="./details.html?id=${x.idMeal}">
+             <img src="${x.strMealThumb}" alt="">
                 <h1>NAME: <span>${x.strMeal}</span> </h1>
                 <h1>ID: <span>${x.idMeal}</span> </h1>
-           `;
+           
+    </a>`;
 
   cards.appendChild(div);
 }

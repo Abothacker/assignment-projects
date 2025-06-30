@@ -57,6 +57,10 @@ header button:hover {
   padding: 10px;
   border-radius: 10px;
 }
+
+#card a {
+  text-decoration: none;
+}
 #card img {
   width: 180px;
   border-radius: 10px;

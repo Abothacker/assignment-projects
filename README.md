@@ -14,3 +14,11 @@ Each project is designed to improve my frontend development skills.
 ### ❓ 2. Quiz Application  
 📁 Folder: `02_Quiz_Application`  
 🔗 [Live Demo](https://assignment-projects.pages.dev/02_Quiz_Application/)
+
+### 🍲 3. Food Recipe App – **FoodHub**  
+📁 Folder: `03_FoodHub`  
+🔗 [Live Demo](https://assignment-projects.pages.dev/03_%20FoodHub/)
+
+---
+
+Feel free to explore each project and see how they evolve as I continue learning frontend development!

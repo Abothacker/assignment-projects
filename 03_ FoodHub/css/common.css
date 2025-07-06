@@ -1,0 +1,80 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #e6f2ff; /* Light background for contrast */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+  background: dodgerblue;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-right {
+  display: flex;
+  gap: 20px;
+}
+#header-right img:hover {
+  transform: scale(1.2); /* Zooms in 20% */
+  transition: transform 0.3s ease; /* Smooth animation */
+  cursor: pointer; /* Optional: shows pointer on hover */
+}
+header img {
+  height: 20px;
+}
+header a {
+  text-decoration: none;
+}
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  letter-spacing: 2px;
+}
+
+header h1 span {
+  color: #ffeb3b; /* Yellow accent */
+}
+/* footer */footer {
+  background: dodgerblue;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+
+/* Style for the anchor */
+footer a {
+  color: #fffa65; /* light yellow */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* On hover, change color slightly */
+footer a:hover {
+  color: #ffffff; /* white on hover */
+  text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+/* Detail Container */
+#box {
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  border: 2px solid dodgerblue;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image */
+#box img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+#box h1 {
+  font-size: 32px;
+  color: dodgerblue;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Ingredients Table */
+#mytab {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 16px;
+}
+
+#mytab h1 {
+  text-align: left;
+  color: dodgerblue;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+#mytab th,
+#mytab td {
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#mytab tr:hover {
+  background-color: #f3faff;
+}
+
+/* Instructions */
+#steps {
+  margin-top: 40px;
+}
+
+#steps h1 {
+  font-size: 26px;
+  color: dodgerblue;
+  margin-bottom: 15px;
+  border-left: 5px solid dodgerblue;
+  padding-left: 10px;
+}
+
+#steps ol {
+  padding-left: 25px;
+}
+
+#steps li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Optional: highlight span if used */
+span {
+  color: dodgerblue;
+  font-weight: bold;
+}

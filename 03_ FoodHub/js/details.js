@@ -1,4 +1,3 @@
-
 const box = document.querySelector("#box");
 
 function main() {
@@ -83,9 +82,13 @@ function stepsFun(data) {
   let steps = data.split("\r\n");
 
   steps.forEach((step) => {
-    let li = document.createElement("li");
-    li.innerHTML = `${step}`;
-    stepsDiv.append(li);
+    if (step == "") {
+      console.log(step);
+    } else {
+      let li = document.createElement("li");
+      li.innerHTML = `${step}`;
+      stepsDiv.append(li);
+    }
   });
 }
 

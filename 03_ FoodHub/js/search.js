@@ -5,12 +5,14 @@ const submitBtn = document.querySelector("#submit");
 // const output = document.querySelector("#output")
 
 userIn.value = "biryani";
-submitBtn.addEventListener("click", (e) => {
+
+submitBtn.addEventListener("click", () => {
   let val = userIn.value;
   if (val == "") {
     alert("Enter food name..");
   } else {
     searchfun(val);
+    box.innerHTML = "";
   }
 });
 
@@ -37,9 +39,9 @@ function getdata(meal) {
   div.id = "card";
 
   div.innerHTML = `<a href="./details.html?id=${meal.idMeal}" rel="noopener noreferrer">
-            <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
-            <h1>${meal.strMeal}</h1>
+              <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
+              <h1>${meal.strMeal}</h1>
 
-        </a>`;
+          </a>`;
   cards.append(div);
 }

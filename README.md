@@ -19,6 +19,10 @@ Each project is designed to improve my frontend development skills.
 📁 Folder: `03_FoodHub`  
 🔗 [Live Demo](https://assignment-projects.pages.dev/03_%20FoodHub/)
 
+### 🍲 4. Google Page 
+📁 Folder: `04_Google`  
+🔗 [Live Demo](https://assignment-projects.pages.dev/04_Google/)
+
 ---
 
 Feel free to explore each project and see how they evolve as I continue learning frontend development!

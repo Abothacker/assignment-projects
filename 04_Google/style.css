@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #273f43;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  /* display: grid;
+  place-items: center; */
+}
+
+#box {
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#box img {
+  width: 250px;
+}
+
+#search {
+  /* width: 59%; */
+  min-width: 50%;
+  max-width: 70%;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+#search [type="text"] {
+  height: 25px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+}
+#search [type="text"]:focus {
+  outline: none;
+}
+
+#search img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  cursor: text;
+}
+
+#searchControl {
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+}
+
+#cards {
+  display: flex;
+  gap: 10px;
+}
+#cards a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  height: 160px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: #bcbdbe3b;
+}
+
+#icon {
+  display: flex;
+  justify-content: center;
+}
+#icon img {
+  background-color: #fff;
+  height: 70px;
+  width: 70px;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+/* close btn css start  */
+
+#closebtn {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  padding: 2px;
+}
+#closebtn img {
+  height: 30px;
+  width: 30px;
+  padding: 4px;
+  opacity: calc(0);
+}
+#closebtn img:hover {
+  background-color: #dadce06f;
+  border-radius: 50%;
+}
+
+.card:hover #closebtn img {
+  opacity: calc(1);
+}
+
+/* close btn css end  */
+
+#name h1 {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 20px;
+}
